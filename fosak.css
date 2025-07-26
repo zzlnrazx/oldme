@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+    height: 100vh;
+    background-color: #04002c;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    display: flex;
+    background-position: center;
+    background-image: url(backgrounf.png);
+}
+.menubox{
+    height: 2.4vw;
+    width: 100vw;
+    background-color: #213448;
+    justify-content: center;
+    position: fixed;
+    text-align: center;
+    
+}
+.menu1 {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1vw;
+    position: fixed  ;
+    left: 47vw;
+    top: 0.5vw;
+     
+}
+.menu2 {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1vw;
+    position: fixed  ;
+    left: 53vw;
+    top: 0.5vw;
+}
+.over {
+    text-align: center;
+    position: sticky;
+    align-items: center;
+}
+.outin {
+    height: auto;
+    width: 90vh;
+    border-radius: 18px;
+    background-color: transparent;
+    display: flex;
+}
+.head {
+    color: whitesmoke;
+    position: fixed;
+    font-size: 2vw;
+    top: 4vw;
+    left: 36vw;
+    text-align: center;
+    
+}
+.imagebox {
+    margin: auto ;
+    background-color: rgb(202, 212, 219);
+    height: 25vw;
+    width: 35vw;
+    overflow: hidden;
+    border-radius: 5%;
+    border: none;
+    position: fixed;
+    top: 30vh;
+    left: 5%;
+}
+.imageslider {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    animation: slide 16s infinite;    
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(5);
+    }
+    25% {
+        transform:translateX(5);
+    }
+    30% {
+        transform: translateX(-115%);
+    }
+    50% {
+        transform: translateX(-115%);
+    }
+    55% {
+        transform: translateX(-230%);
+    }
+    75% {
+        transform: translateX(-230%);
+    }
+
+}
